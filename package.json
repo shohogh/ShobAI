@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "wrangler pages dev .",
+    "dev": "wrangler pages dev public",
     "login": "wrangler login",
-    "deploy": "wrangler pages deploy . --project-name shobai",
-    "deploy:dev": "wrangler pages deploy . --project-name shobai --branch dev"
+    "deploy": "wrangler pages deploy public --project-name shobai",
+    "deploy:dev": "wrangler pages deploy public --project-name shobai --branch dev"
   },
   "devDependencies": {
     "wrangler": "^4.149.0"
