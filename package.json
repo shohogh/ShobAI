@@ -7,7 +7,7 @@
     "login": "wrangler login",
     "deploy": "wrangler pages deploy public --project-name shobai",
     "deploy:dev": "wrangler pages deploy public --project-name shobai --branch dev",
-    "deploy:mishbahul": "wrangler pages deploy public/deen --project-name mishbahul",
+    "deploy:mishbahul": "cp -r public/images public/deen/ && wrangler pages deploy public/deen --project-name mishbahul",
     "dev:deen": "wrangler pages dev public/deen"
   },
   "devDependencies": {
